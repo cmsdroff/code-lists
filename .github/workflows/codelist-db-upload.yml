@@ -4,7 +4,7 @@ on:
   push:
     branches:
       - main
-      - patch-2
+      - cicd-pipeline
 
 jobs:
   upload-to-s3:
@@ -22,12 +22,10 @@ jobs:
         python-version: 3.x
 
     # Install AWS CLI
-    - name: Install or Update AWS CLI
+    - name: Install AWS CLI
       run: |
-        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
-        unzip awscliv2.zip
-        sudo ./aws/install --update
-        aws --version
+        sudo apt-get update
+        sudo apt-get install -y awscli
 
     # Upload the file to S3
     - name: Upload to S3
@@ -36,8 +34,9 @@ jobs:
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
         AWS_DEFAULT_REGION: eu-west-1
       run: |
-        FILE="data/liner-codes/_combined.json"
-        BUCKET="dev-smdg-codelists-linercodes"
+        FILE="code-lists/data/liner-codes/_combined.json"
+        BUCKET="smdg-liner-codes"
+
         if [ -f "$FILE" ]; then
           aws s3 cp "$FILE" "s3://$BUCKET/_combined.json" --region $AWS_DEFAULT_REGION
           echo "File uploaded successfully."
