@@ -24,8 +24,10 @@ jobs:
     # Install AWS CLI
     - name: Install AWS CLI
       run: |
-        sudo apt-get update
-        sudo apt-get install -y awscli
+        curl "https://awscli.amazonaws.com/awscli-exe-linux-x86_64.zip" -o "awscliv2.zip"
+        unzip awscliv2.zip
+        sudo ./aws/install
+        aws --version
 
     # Upload the file to S3
     - name: Upload to S3
@@ -36,7 +38,6 @@ jobs:
       run: |
         FILE="data/liner-codes/_combined.json"
         BUCKET="dev-smdg-codelists-linercodes"
-
         if [ -f "$FILE" ]; then
           aws s3 cp "$FILE" "s3://$BUCKET/_combined.json" --region $AWS_DEFAULT_REGION
           echo "File uploaded successfully."
