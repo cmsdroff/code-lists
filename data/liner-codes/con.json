@@ -1,17 +1,21 @@
 {
-  "isActive": true,
   "codeStatus": "Active",
+  "smdgLinerID": "con",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "CON",
   "linerName": "Contcharters",
-  "isNVOCC": false,
-  "isVOCC": true,
-  "parentCompany": "CON",
-  "address": "Ajeltake Road, Ajeltake Island, Majure MH96960, Marshall Islands",
+  "isActive": true,
+  "validFrom": "2021-12-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "CON",
+  "carrierType": "",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "MH",
+    "locationName": "",
     "address": {
+      "name": "Ajeltake Road, Ajeltake Island, Majure MH96960, Marshall Islands",
       "street": "",
       "streetNumber": "",
       "floor": "",
@@ -21,20 +25,17 @@
       "country": "Marshall Islands"
     }
   },
-  "website": "not available",
-  "remarks": "",
-  "validFrom": "2021-12-01",
-  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-12-01",
       "updateRequestedBy": "Hapag-Lloyd",
-      "reason": "new request",
-      "changedFields": [],
       "linkedLinerCode": "",
+      "reason": "new request",
       "comments": "requested by Hapag-Lloyd"
     }
-  ]
+  ],
+  "website": "not available",
+  "remarks": ""
 }

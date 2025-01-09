@@ -1,17 +1,21 @@
 {
-  "isActive": true,
   "codeStatus": "Active",
+  "smdgLinerID": "sas",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SAS",
   "linerName": "Shahaziz Shipping (SASL) Private Limited",
-  "isNVOCC": true,
-  "isVOCC": false,
-  "parentCompany": "SAS",
-  "address": "120 Robinson Road, #15-01, Singapore (068913)",
+  "isActive": true,
+  "validFrom": "2024-03-19",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "SAS",
+  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
+    "locationName": "",
     "address": {
+      "name": "120 Robinson Road, #15-01, Singapore (068913)",
       "street": "",
       "streetNumber": "",
       "floor": "",
@@ -21,20 +25,17 @@
       "country": "Singapore"
     }
   },
-  "website": "https://www.sasl.sg",
-  "remarks": "",
-  "validFrom": "2024-03-19",
-  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2024-03-19",
       "updateRequestedBy": "SASL",
-      "reason": "new request",
-      "changedFields": [],
       "linkedLinerCode": "",
+      "reason": "new request",
       "comments": "requested by SASL"
     }
-  ]
+  ],
+  "website": "https://www.sasl.sg",
+  "remarks": ""
 }

@@ -1,17 +1,21 @@
 {
-  "isActive": true,
   "codeStatus": "Active",
+  "smdgLinerID": "ecn",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "ECN",
   "linerName": "Econship Marine Pte Ltd",
-  "isNVOCC": true,
-  "isVOCC": false,
-  "parentCompany": "",
-  "address": "81, Anson Road Level 8, Suite 8-25\nM Hotel Singapore Singapore 079908",
+  "isActive": true,
+  "validFrom": "2022-12-21",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
+    "locationName": "",
     "address": {
+      "name": "81, Anson Road Level 8, Suite 8-25\nM Hotel Singapore Singapore 079908",
       "street": "Anson Road",
       "streetNumber": "81",
       "floor": "",
@@ -21,20 +25,17 @@
       "country": "Singapore"
     }
   },
-  "website": "https://www.econshipping.com/",
-  "remarks": "",
-  "validFrom": "2022-12-21",
-  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-12-21",
       "updateRequestedBy": "ECON",
-      "reason": "new request",
-      "changedFields": [],
       "linkedLinerCode": "",
+      "reason": "new request",
       "comments": "requested by ECON"
     }
-  ]
+  ],
+  "website": "https://www.econshipping.com/",
+  "remarks": ""
 }

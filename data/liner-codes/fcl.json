@@ -1,17 +1,21 @@
 {
-  "isActive": true,
   "codeStatus": "Active",
+  "smdgLinerID": "fcl",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "FCL",
   "linerName": "Federated Cargo Line Pte Ltd",
-  "isNVOCC": true,
-  "isVOCC": false,
-  "parentCompany": "",
-  "address": "10 Anson Road, International Plaza #20-09, Singapore 079903",
+  "isActive": true,
+  "validFrom": "2023-01-26",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
+    "locationName": "",
     "address": {
+      "name": "10 Anson Road, International Plaza #20-09, Singapore 079903",
       "street": "Anson Road",
       "streetNumber": "10",
       "floor": "",
@@ -21,20 +25,17 @@
       "country": "Singapore"
     }
   },
-  "website": "https://fedxline.com/",
-  "remarks": "",
-  "validFrom": "2023-01-26",
-  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2023-01-26",
       "updateRequestedBy": "Federated Cargo Line",
-      "reason": "new request",
-      "changedFields": [],
       "linkedLinerCode": "",
+      "reason": "new request",
       "comments": "requested by Federated Cargo Line"
     }
-  ]
+  ],
+  "website": "https://fedxline.com/",
+  "remarks": ""
 }

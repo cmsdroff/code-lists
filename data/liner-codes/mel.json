@@ -1,17 +1,21 @@
 {
-  "isActive": true,
   "codeStatus": "Active",
+  "smdgLinerID": "mel",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "MEL",
   "linerName": "Mariana Express Lines, Singapore",
-  "isNVOCC": false,
-  "isVOCC": false,
-  "parentCompany": "PIL",
-  "address": "Mariana Express Lines Pte. Ltd.\nPrincipal Office\n140 Cecil Street, #09-01 PIL Building, Singapore 069540, Singapore",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "PIL",
+  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
+    "locationName": "",
     "address": {
+      "name": "Mariana Express Lines Pte. Ltd.\nPrincipal Office\n140 Cecil Street, #09-01 PIL Building, Singapore 069540, Singapore",
       "street": "Cecil Street",
       "streetNumber": "140",
       "floor": "#09-01 PIL Building",
@@ -21,20 +25,17 @@
       "country": "Singapore"
     }
   },
-  "website": "https://www.mellship.com/",
-  "remarks": "",
-  "validFrom": "2003-09-01",
-  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
-      "reason": "initial change",
-      "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "reason": "new request",
+      "comments": ""
     }
-  ]
+  ],
+  "website": "https://www.mellship.com/",
+  "remarks": ""
 }
