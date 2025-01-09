@@ -1,17 +1,21 @@
 {
-  "isActive": true,
   "codeStatus": "Active",
+  "smdgLinerID": "smt",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "SMT",
   "linerName": "Summit Shipping PTE LTD",
-  "isNVOCC": true,
-  "isVOCC": false,
-  "parentCompany": "",
-  "address": "200 Cantonment Road, #06-01 South Point, Singapore 089763, Singapore",
+  "isActive": true,
+  "validFrom": "2022-06-23",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
+    "locationName": "",
     "address": {
+      "name": "200 Cantonment Road, #06-01 South Point, Singapore 089763, Singapore",
       "street": "Cantonment Road",
       "streetNumber": "200",
       "floor": "#06-01 Southpoint",
@@ -21,20 +25,17 @@
       "country": "Singapore"
     }
   },
-  "website": "https://www.summitshipping.sg/",
-  "remarks": "",
-  "validFrom": "2022-06-23",
-  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-06-29",
       "updateRequestedBy": "FMT",
-      "reason": "new request",
-      "changedFields": [],
       "linkedLinerCode": "",
+      "reason": "new request",
       "comments": "requested by FMT/SMT"
     }
-  ]
+  ],
+  "website": "https://www.summitshipping.sg/",
+  "remarks": ""
 }

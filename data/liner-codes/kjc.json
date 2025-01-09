@@ -1,17 +1,21 @@
 {
-  "isActive": true,
   "codeStatus": "Active",
+  "smdgLinerID": "kjc",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "KJC",
   "linerName": "Kuk Jae Transportation Co.",
-  "isNVOCC": false,
-  "isVOCC": false,
-  "parentCompany": "",
-  "address": "Kuk Jae Express \n12407 E Slauson Ave # A \u0026 B\nWhittier, CA 90606, USA",
+  "isActive": true,
+  "validFrom": "2003-09-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
   "addressLocation": {
     "UnLocode": "",
     "UnCountryCode": "US",
+    "locationName": "",
     "address": {
+      "name": "Kuk Jae Express \n12407 E Slauson Ave # A \u0026 B\nWhittier, CA 90606, USA",
       "street": "",
       "streetNumber": "",
       "floor": "",
@@ -21,20 +25,17 @@
       "country": "United States of America"
     }
   },
-  "website": "",
-  "remarks": "",
-  "validFrom": "2003-09-01",
-  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2021-01-01",
       "updateRequestedBy": null,
-      "reason": "initial change",
-      "changedFields": [],
       "linkedLinerCode": "",
-      "comments": "Added by SMDG without a specific request."
+      "reason": "new request",
+      "comments": ""
     }
-  ]
+  ],
+  "website": "",
+  "remarks": ""
 }

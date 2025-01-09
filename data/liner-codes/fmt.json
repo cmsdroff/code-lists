@@ -1,17 +1,21 @@
 {
-  "isActive": true,
   "codeStatus": "Active",
+  "smdgLinerID": "fmt",
   "linerCodeVersion": "V1",
   "linerSMDGCode": "FMT",
   "linerName": "FMT International Shipping PTE LTD",
-  "isNVOCC": true,
-  "isVOCC": false,
-  "parentCompany": "",
-  "address": "200 Cantonment Road, #06-05 Southpoint, Singapore 089763, Singapore",
+  "isActive": true,
+  "validFrom": "2022-07-01",
+  "validTo": "9999-12-31",
+  "parentCompanyCode": "",
+  "parentCompanyName": "",
+  "carrierType": "",
   "addressLocation": {
     "UnLocode": "SIN",
     "UnCountryCode": "SG",
+    "locationName": "",
     "address": {
+      "name": "200 Cantonment Road, #06-05 Southpoint, Singapore 089763, Singapore",
       "street": "Cantonment Road",
       "streetNumber": "200",
       "floor": "#12-01 Southpoint",
@@ -21,20 +25,17 @@
       "country": "Singapore"
     }
   },
-  "website": "https://www.fmt-shipping.com/",
-  "remarks": "",
-  "validFrom": "2022-07-01",
-  "validTo": null,
   "changeLogs": [
     {
       "actionCode": "Added",
       "linerCodeVersion": "V1",
       "lastUpdateDate": "2022-06-29",
       "updateRequestedBy": "FMT",
-      "reason": "new request",
-      "changedFields": [],
       "linkedLinerCode": "",
+      "reason": "new request",
       "comments": "requested by FMT"
     }
-  ]
+  ],
+  "website": "https://www.fmt-shipping.com/",
+  "remarks": ""
 }
